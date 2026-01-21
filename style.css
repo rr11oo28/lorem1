@@ -13,6 +13,7 @@ body{
     padding: 20px 80px;
 }
 .nav a {
+    margin-top: 20px;
     margin: 0 15px;
     text-decoration: none;
     font-weight: 500;
@@ -40,6 +41,7 @@ body{
 }
 
 .hero-title {
+    margin-top: 50px;
     text-align: center;
     font-size: 42px;
     color: #1f2fff;
