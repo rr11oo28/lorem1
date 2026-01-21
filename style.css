@@ -12,10 +12,11 @@ body{
     justify-content: space-between;
     padding: 20px 80px;
 }
-
- 
-
-
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2fff;
+}
 .nav a {
     margin-top: 20px;
     margin: 0 15px;
