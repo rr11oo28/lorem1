@@ -123,4 +123,73 @@ body{
     color: #1f2fff;
     margin: 80px 0;
 }
+@media (max-width: 992px) {
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .hero-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-image,
+    .hero-tags,
+    .hero-info {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 34px;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        padding: 15px;
+    }
+
+    .nav a {
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    .phone {
+        font-size: 14px;
+    }
+
+    .register-btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .hero-title {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .hero-tags span {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .hero-info p {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 26px;
+        margin: 50px 0;
+    }
+}
 
